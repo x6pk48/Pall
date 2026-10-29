@@ -1,0 +1,13 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated archives
+node_modules/
+*.zip
+
+# Local editor and OS state
+.vscode/
+.DS_Store
+Thumbs.db
