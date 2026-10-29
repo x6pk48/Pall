@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": [
+        "doubleclick.net",
+        "googlesyndication.com",
+        "googleadservices.com",
+        "adservice.google.com",
+        "amazon-adsystem.com",
+        "adnxs.com",
+        "adsrvr.org",
+        "advertising.com",
+        "criteo.com",
+        "criteo.net",
+        "taboola.com",
+        "outbrain.com",
+        "revcontent.com",
+        "mgid.com",
+        "rubiconproject.com",
+        "pubmatic.com",
+        "openx.net",
+        "casalemedia.com",
+        "indexww.com",
+        "smartadserver.com",
+        "adform.net",
+        "yieldmo.com",
+        "sharethrough.com",
+        "33across.com",
+        "media.net",
+        "bidswitch.net",
+        "contextweb.com",
+        "lijit.com",
+        "sovrn.com",
+        "teads.tv",
+        "adtelligent.com",
+        "moatads.com",
+        "adsafeprotected.com",
+        "doubleverify.com",
+        "serving-sys.com",
+        "flashtalking.com",
+        "bluekai.com",
+        "demdex.net",
+        "krxd.net",
+        "agkn.com"
+      ],
+      "resourceTypes": [
+        "sub_frame",
+        "script",
+        "image",
+        "xmlhttprequest",
+        "ping",
+        "media",
+        "font",
+        "stylesheet",
+        "websocket",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": [
+        "rlcdn.com",
+        "tapad.com",
+        "everesttech.net",
+        "adition.com",
+        "zemanta.com",
+        "scorecardresearch.com",
+        "quantserve.com",
+        "quantcount.com",
+        "google-analytics.com",
+        "ads-twitter.com",
+        "ads.linkedin.com",
+        "px.ads.linkedin.com",
+        "analytics.tiktok.com",
+        "ads.tiktok.com",
+        "bat.bing.com",
+        "popads.net",
+        "popcash.net",
+        "propellerads.com",
+        "exoclick.com",
+        "exosrv.com",
+        "adcash.com",
+        "clickadu.com",
+        "hilltopads.net",
+        "onclickads.net",
+        "adsterra.com",
+        "juicyads.com",
+        "trafficjunky.net",
+        "plugrush.com",
+        "monetag.com",
+        "galaksion.com",
+        "admaven.com"
+      ],
+      "resourceTypes": [
+        "sub_frame",
+        "script",
+        "image",
+        "xmlhttprequest",
+        "ping",
+        "media",
+        "font",
+        "stylesheet",
+        "websocket",
+        "other"
+      ]
+    }
+  }
+]

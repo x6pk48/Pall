@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "upgradeScheme"
+    },
+    "condition": {
+      "regexFilter": "^http://[a-z0-9-]+(\\.[a-z0-9-]+)+\\.[a-z]+/",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Pip, Pall's little shield mascot">
+  <ellipse cx="48" cy="87" rx="25" ry="5" fill="#14211e" opacity=".12"/>
+  <path d="M22 30 18 13q13 2 22 13M74 30l4-17q-13 2-22 13" fill="#f18a63" stroke="#087f73" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M48 13c11 9 23 10 34 12v23c0 21-14 34-34 42C28 82 14 69 14 48V25c11-2 23-3 34-12Z" fill="#087f73" stroke="#075d55" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M48 23c8 6 16 8 25 9v16c0 16-9 26-25 33-16-7-25-17-25-33V32c9-1 17-3 25-9Z" fill="#fff1d2"/>
+  <ellipse cx="38" cy="47" rx="3.5" ry="4.5" fill="#17231f"/>
+  <ellipse cx="58" cy="47" rx="3.5" ry="4.5" fill="#17231f"/>
+  <path d="M44 57q4 4 8 0" fill="none" stroke="#17231f" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="30" cy="55" r="3" fill="#f3a185" opacity=".8"/>
+  <circle cx="66" cy="55" r="3" fill="#f3a185" opacity=".8"/>
+  <path d="m77 8 2.5 5.5L85 16l-5.5 2.5L77 24l-2.5-5.5L69 16l5.5-2.5L77 8Z" fill="#e4ae43"/>
+</svg>

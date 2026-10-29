@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pall</title>
+<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><img src="../icons/safe-32.png" alt="" width="22" height="22"><b>Pall</b></div>
+  <span id="verdictPill" class="pill">Checking…</span>
+</header>
+<aside id="mascotPopup" class="mascot-popup" role="status" aria-live="polite" hidden>
+  <div id="mascotArt" class="mascot-art" aria-hidden="true"></div>
+  <div class="mascot-copy"><b id="mascotTitle">Pip is here</b><span id="mascotMessage">Ready to check a page or plan your day?</span></div>
+  <div class="mascot-actions"><button id="mascotActionButton" class="mascot-open" data-act="mascot-assistant">Ask Pall</button><button class="mascot-close" data-act="mascot-dismiss" aria-label="Dismiss mascot pop-up">×</button></div>
+</aside>
+<nav class="tabs" id="tabs" role="tablist">
+  <button role="tab" data-tab="protect" aria-selected="true">Protect</button>
+  <button role="tab" data-tab="assistant" aria-selected="false">Assistant</button>
+  <button role="tab" data-tab="tasks" aria-selected="false">Tasks</button>
+  <button role="tab" data-tab="memory" aria-selected="false">Memory</button>
+  <button role="tab" data-tab="settings" aria-selected="false">Settings</button>
+</nav>
+<main id="view"></main>
+<script src="../lib/domains.js"></script>
+<script src="../lib/redact.js"></script>
+<script src="../lib/heuristics.js"></script>
+<script src="../lib/agent.js"></script>
+<script src="panel.js"></script>
+</body>
+</html>

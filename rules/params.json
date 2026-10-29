@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "fbclid",
+              "gclid",
+              "msclkid",
+              "mc_eid",
+              "igshid",
+              "yclid",
+              "_hsenc",
+              "_hsmi"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://[^#]*[?&](utm_source|utm_medium|utm_campaign|utm_term|utm_content|fbclid|gclid|msclkid|mc_eid|igshid|yclid|_hsenc|_hsmi)=",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]
